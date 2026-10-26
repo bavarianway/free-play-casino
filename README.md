@@ -1,5 +1,7 @@
 # Free Play Casino (working title)
 
+**Live demo (play chips only, 18+):** https://bavarianway.github.io/free-play-casino/
+
 A **free-to-play, play-money** social casino: Blackjack, Slots, European Roulette, Crash and Candle Clusters, with
 **provably fair** results you can verify in the browser.
 
