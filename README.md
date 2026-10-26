@@ -21,7 +21,9 @@ npm run sim:clusters   # Monte Carlo RTP simulation for Candle Clusters (SPINS=1
 npm run preview    # serve the built app locally
 ```
 
-Nothing here deploys anything. `dist/` is a static bundle you could host later, if you decide to.
+## Deployment
+
+Every push to `main` (or a manual run of the *Deploy to GitHub Pages* workflow) runs `npm ci`, `npm test` and `npm run build`, then publishes `dist/` to GitHub Pages: <https://bavarianway.github.io/free-play-casino/>. Pages is set to the "GitHub Actions" source. The game is play chips only and has no wallet connection.
 
 ## Architecture
 
